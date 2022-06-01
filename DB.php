@@ -3,7 +3,7 @@
 
 class DB
 {
-    public $pdo;
+    protected $pdo;
 
     public function __construct(PDO $pdo)
     {
